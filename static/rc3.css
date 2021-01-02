@@ -1,5 +1,6 @@
 /* orbitron-regular - latin */
-@font-face{
+@font-face
+{
     font-family:"Orbitron";
     font-weight:700;
     font-display:swap;
@@ -8,47 +9,19 @@
 }
 
 
-body
-{
-    font-family: 'Orbitron'; 
-    font-size: 18px;
-    background-color: #100E23;
-    color: #AE30FF;
-}
+h1          { text-align: center; color: white;}
+h2          { text-align: center;}
+body        { font-family: 'Orbitron';  font-size: 18px; background-color: #100E23; color: #AE30FF; }
+ul          { list-style-type: none; margin: 0; padding: 0; }
 
-.logo
-{ 
-    margin-bottom: 50px;
-    text-align:center;
-    margin-top: 50px;
-}
-  
-.logo img
-{
-    display:inline-block;
-} 
+a           { color: #05B9EC; }
+a:link      { text-decoration: none; }
+a:visited   { text-decoration: none; }
+a:hover     { text-decoration: none; }
+a:active    { text-decoration: none; }
 
-.time
-{
-    color: white;
-}
-
-.center
-{
-    padding-top: 30px;
-    line-height: 200%;
-    margin: auto;
-    width: 60%;
-}
-
-.line
-{
-    line-height: 50%;
-    border-top-style: solid;
-    border-color: #05B9EC;
-}
-
-a
-{
-    color: #05B9EC;
-}
+.logo       { margin-bottom: 50px; text-align:center; margin-top: 50px; }
+.logo img   { display:inline-block; } 
+.time       { color: white; }
+.center     { padding-top: 30px; line-height: 200%; margin: auto; width: 60%; }
+.line       { line-height: 50%; border-top-style: solid; border-color: #05B9EC; }

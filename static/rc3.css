@@ -1,0 +1,54 @@
+/* orbitron-regular - latin */
+@font-face{
+    font-family:"Orbitron";
+    font-weight:700;
+    font-display:swap;
+    font-style:normal;
+    src:url("fonts/orbitron-v16-latin-regular.woff") format("woff"),url("fonts/orbitron-v16-latin-regular.ttf") format("truetype")
+}
+
+
+body
+{
+    font-family: 'Orbitron'; 
+    font-size: 18px;
+    background-color: #100E23;
+    color: #AE30FF;
+}
+
+.logo
+{ 
+    margin-bottom: 50px;
+    text-align:center;
+    margin-top: 50px;
+}
+  
+.logo img
+{
+    display:inline-block;
+} 
+
+.time
+{
+    color: white;
+}
+
+.center
+{
+    padding-top: 30px;
+    line-height: 200%;
+    margin: auto;
+    width: 60%;
+}
+
+.line
+{
+    line-height: 50%;
+    border-top-style: solid;
+    border-color: #05B9EC;
+}
+
+a
+{
+    color: #05B9EC;
+}

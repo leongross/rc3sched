@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <title> [{{ short }} :: {{ long }}] </title>
+    <head>
+            <link rel="stylesheet" href="{{ url_for('static', filename="rc3.css")}}">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="{{ url_for('static', filename="rc3.svg")}}" alt="rc3_logo" title="rc3_logo" width="170" height="170">
+            </div>
+        </header>
+        
+        <div class="line"><br></div>
+        <div class="line"><br></div>
+
+        <div class="center">
+            {% if l %}
+                {% for e in l %}
+                    <span class="time">[{{e[0]}}]</span>
+                    <span class="time">[{{e[1]}}]</span>
+                    <span>[{{e[2]}}]</span>
+                    <span>[{{e[3]}}]</span>
+                    <span>[{{e[4]}}]</span>
+                    <!--
+                    <span><a href="{{ e[5] }}"">[url]</a></span>
+                    -->
+                    <span><a href="{{ e[5] }}"">{{e[5]}}</a></span>
+                    
+                    <br>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </body>
+    <footer>
+
+    </footer>
+</html>
+
+

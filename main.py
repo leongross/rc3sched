@@ -22,7 +22,6 @@ def schedule_track_kw(track):
     }
 
     if track in m:
-        print(m[track])
         r       = requests.get('https://fahrplan.events.ccc.de/rc3/2020/Fahrplan/schedule.json').json()
         days    = r['schedule']['conference']['days']
         t       = []

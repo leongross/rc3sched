@@ -32,10 +32,10 @@ def schedule_track_kw(track):
             rs      = [ rooms[x] for x in rl ]
             
             for rr in rs:
-                for e in rr:
-                    if e['track'] == m[track]:
-                        e['date'] = day['date']
-                        t.append(e)
+                for event in rr:
+                    if event['track'] == m[track]:
+                        event['date'] = day['date']
+                        t.append(event)
 
     else:
         return render_template('track_not_found.html')
